@@ -1,0 +1,104 @@
+
+<html>
+	<head>
+	<meta charset="utf-8">
+		<title>oi</title>
+		
+		<link href="Mota.css" rel ="stylesheet"/>
+		<link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet"/>
+		<script src="js/bootstrap.min.js/bootstrap.min.js"></script>
+		<style>
+		html{
+		
+			background-image: url("mota.jpg");
+		}
+		#container{
+			background-color: beige;
+			height:90%; /*largura*/
+			width: 70%; /*altura*/
+			margin: 0px auto 0px auto;
+			border-color: black;
+			border-style: solid;
+			border-width: 5px;
+			text-align: center;
+	
+		}
+		
+		.fundocinza{
+			text-align: left;
+			border-color: gray;
+			border-style: solid;
+			border-width: 2px;
+			font-size: 12px;
+			width: 100px;
+			display: inline-block;
+			background-color: gray;
+			margin: 0;
+		}
+		#descricao{
+			width: 45%;
+			height: 55px;
+			margin: 0;
+		}
+		
+		</style>
+	</head>
+		<body>
+		<div id="container">
+		<h1><center> cadastro do CI </center></h1>
+		<form>
+			<h1 class="fundocinza"> NOME</h1>
+			
+<select name="centro1"> </option>
+
+<option value="centroUm">Centro de Interesses 1
+<option value="musca">español </option> 
+<option value="musca">ingles </option>
+<option value="musca">danca </option>
+</select>
+
+<select name="centro2"> 
+<option value="centroUm">Centro de Interesses 2</option>
+<option value="musca">musica </option> 
+<option value="musca">teatro </option>
+<option value="musca">futsal </option>
+</select><br />
+			<br><h1 class="fundocinza"> DESCRIÇÃO </h1>
+			<textarea placeholder="toca musica"  id="descricao" ></textarea>
+			<br />
+		</br><h1 class="fundocinza">INICIO</h1>
+			
+			<input type="texto" size="2" placeholder="horario" id="nomeDoAluno" />
+			
+		<h1 class="fundocinza">TERMINOLOGIA</h1>
+		
+			<input type="texto" size="2" placeholder="horario" id="nomeDoAluno" />
+			<br />
+		<br><h1 class="fundocinza">DATA DE INiCIO</h1>
+			<input type="texto" size="4" placeholder="dia" id="nomeDoAluno" />
+			<input type="texto" size="4" placeholder="mes"  id="nomeDoAluno" />
+			<input type="texto" size="4" placeholder="ano" id="nomeDoAluno" />
+			<br />
+			<br><h1 class="fundocinza">ORIENTADOR</h1>
+			<input type="texto" size="30" placeholder="orientador"  id="nomeDoOrientador" />
+		
+			<input type="texto" size="7" placeholder="Quantidade de vagas"  id="nomeDoAVagas" />
+
+		
+			<br />
+			 
+			<br><button type="button" class="btn btn-default btn">
+		<span class="glyphicon glyphicon-remove" aria-hidden="true"></span> cancelar
+		</button>
+				<button type="button" class="btn btn-default btn">
+		<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> cancelar
+		</button>
+			
+			<br />
+		</form>
+	</div>
+		
+		</body>
+</html>
+
+
